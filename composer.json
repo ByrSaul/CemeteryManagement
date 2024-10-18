@@ -1,0 +1,33 @@
+{
+    "name": "byrsa/services",
+    "description": "A domain-driven framework for managing cemeteries.",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CemeteryManagement\\": "src/Domain/",
+            "CemeteryManagement\\Infrastructure\\": "src/Infrastructure/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Byron Marroquin",
+            "email": "byronsantos@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "ext-simplexml": "*",
+        "ext-pdo": "*",
+        "illuminate/database": "^9.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "yajra/laravel-oci8": "9.5",
+        "illuminate/filesystem": "^9.52"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+}
