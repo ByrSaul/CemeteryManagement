@@ -25,7 +25,7 @@ class CommonGrave extends AbstractEntity
         if (count($this->deceasedIds) < $this->capacity) {
             $this->deceasedIds[] = $deceasedId;
         } else {
-            throw new \Exception("Common grave is full.");
+            throw new \Exception("Traits grave is full.");
         }
     }
 }

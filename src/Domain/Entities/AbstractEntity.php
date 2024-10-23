@@ -1,8 +1,8 @@
 <?php
 
-namespace CemeteryManagement\Domain\Entities;
+namespace CemeteryManagement\Entities;
 
-use CemeteryManagement\Domain\Contracts\ValueObjects\Collections\IsCollectable;
+use CemeteryManagement\Contracts\ValueObjects\Collections\IsCollectable;
 use JsonSerializable;
 use MongoDB\Driver\Exception\UnexpectedValueException;
 use UnderflowException;
